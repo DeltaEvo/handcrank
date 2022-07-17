@@ -1,0 +1,30 @@
+{
+  "name": "manivelle",
+  "version": "1.0.0",
+  "description": "A light and streaming template engine",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test/index.js",
+    "format": "prettier --embedded-language-formatting=off -w src/**.js test/**.js examples/**.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeltaEvo/manivelle.git"
+  },
+  "keywords": [
+    "engine",
+    "template",
+    "html",
+    "streaming"
+  ],
+  "author": "David Duarte <git@delta.sh>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DeltaEvo/manivelle/issues"
+  },
+  "homepage": "https://github.com/DeltaEvo/manivelle#readme",
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}
